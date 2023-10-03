@@ -1,0 +1,202 @@
+nav
+{
+    background-color: #8bbdf25d;
+    padding: 1vw;
+}
+
+.naverson
+{
+    display: flex;
+}
+
+.naverson i
+{
+    margin-top: 4vh;
+}
+
+.naverson p
+{
+    font-family: 'Fredoka One', cursive;
+    margin-top: -3vh;
+    margin-left: 2vw;
+}
+
+img {
+    max-width: 40%;
+    height: auto;      
+}
+
+body 
+{
+    background-image: url(imagens/Design\ sem\ nome.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    
+}
+
+.escolha 
+{
+    text-align: center;
+    padding: 5%;
+    border-radius: 5%;
+    
+}
+.container {
+    text-align: center;
+    padding: 5%;
+    border-radius: 5%;
+    
+}
+
+.select-container {
+    margin-bottom: 5%;
+}
+
+button {
+    background-color: #6fb0f5;
+    color: #fff;
+    border: none;
+    padding: 1% 2%;
+    border-radius: 4%;
+    cursor: pointer;
+    margin-bottom: 4vh;
+}
+
+button:hover {
+    background-color: #e1ed7c;
+}
+
+nav h1
+{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: #87CEEB;
+    margin-top: -4vh;
+
+}
+
+nav .h11
+{
+    color: #e68ee6;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+
+}
+
+h2
+{
+    font-family: 'Fredoka One', cursive;
+    color: rgb(110, 124, 119);
+}
+
+label[for="breed"] 
+{
+    font-family: 'Fredoka One', cursive;
+    color: rgb(110, 124, 119);
+
+}
+
+#breed-info {
+    background-color: #f2c2fe; /* Cor de fundo */
+    border-radius: 3.5%; /* Borda arredondada */
+    padding: 2.5%; /* Espaçamento interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: center; /* Alinhamento central de texto */
+    max-width: 30vw; /* Largura máxima */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    margin-top: 4vh;
+}
+
+#breed-info p {
+    margin: 3vh 0; /* Espaçamento entre parágrafos */
+    font-family: "Fredoka One" , cursive;
+    color: #5b0a70;
+    font-size: 1.1vw/* Tamanho da fonte */
+}
+
+#breed-info h2
+{
+    color: #5b0a70;
+}
+
+.parallex-element img
+{
+    justify-content: center;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 768px)
+{
+    
+    .naverson p
+    {
+        font-family: 'Fredoka One', cursive;
+        margin-top: -3vh;
+        margin-left: 4.5vw;
+        font-size: smaller;
+    }  
+
+    nav h1
+    {
+        font-family: 'Fredoka One', cursive;
+        text-align: center;
+        color: #87CEEB;
+        margin-top: 2.5vh;
+        font-size: medium;
+
+    }
+
+    nav .h11
+    {
+        color: #e68ee6;
+        font-family: 'Fredoka One', cursive;
+        text-align: center;
+        font-size: small;
+
+    }
+
+    h2
+    {
+        font-family: 'Fredoka One', cursive;
+        color: rgb(110, 124, 119);
+    }
+
+    #breed-info {
+        background-color: #f2c2fe; /* Cor de fundo */
+        border-radius: 3.5%; /* Borda arredondada */
+        padding: 5%; /* Espaçamento interno */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+        text-align: center; /* Alinhamento central de texto */
+        max-width: 50vw; /* Largura máxima */
+        margin: 0 auto; /* Centralizar horizontalmente */
+        margin-top: 4vh;
+    }
+
+    #breed-info p {
+        margin: 3vh 0; /* Espaçamento entre parágrafos */
+        font-family: "Fredoka One" , cursive;
+        color: #5b0a70;
+        font-size: 2vw/* Tamanho da fonte */
+    }
+
+    #breed-info h2
+    {
+        color: #5b0a70;
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 828px)
+{
+    .naverson i 
+    {
+        margin-top: -2vh;
+    };
+
+    .naverson p 
+    {
+        margin-top: 2vh;
+        margin-left: 2vw;
+    }
+}
+
